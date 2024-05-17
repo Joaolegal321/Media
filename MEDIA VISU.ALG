@@ -16,6 +16,14 @@ Leia(n4)
 
 med:=(n1+n2+n3+n4)/4
 
-Escreval("A media final do aluno é ",med)
+Escreval("A media final do aluno Ã© ",med)
+
+se (med<6) entao 
+    escreval("Aluno reprovado")
+fimse
+
+se (med>=6) entao
+    escreval("Aluno aprovado")
+fimse
 
 Fimalgoritmo
